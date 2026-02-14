@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Seilforeningsappen – Digital drift for seilforeninger</title>
+  <meta name="description" content="Digital drift for seilforeninger. Havn, dugnad, nyhetsside og mer – bygget med Askøy Seilforening." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- TOP BAR -->
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#top" aria-label="Seilforeningsappen">
+        <span class="brand-mark" aria-hidden="true">⛵</span>
+        <span class="brand-title">Seilforeningsappen</span>
+      </a>
+
+      <div class="topbar-actions">
+        <a class="btn btn-outline" href="https://app.seilforeningsappen.no" target="_blank" rel="noopener">Åpne app</a>
+        <button class="btn btn-primary" id="openDemoTop">Book demo</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO + TRUST -->
+    <section class="wrap section hero">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <h1>Digital drift for seilforeninger</h1>
+          <p class="lead">
+            Samle <strong>havn</strong>, <strong>dugnad</strong> og <strong>informasjon</strong> i ett system –
+            laget for norsk foreningshverdag. Mindre administrasjon. Mer seiling.
+          </p>
+
+          <div class="hero-actions">
+            <button class="btn btn-primary" id="openDemoHero">Book demo (20 min)</button>
+            <a class="btn btn-soft" href="#hvordan">Se hvordan</a>
+          </div>
+
+          <div class="meta-row" aria-label="Nøkkelpunkter">
+            <span class="meta-pill">Mobil-først</span>
+            <span class="meta-pill">Rollebasert</span>
+            <span class="meta-pill">Invitasjonsbasert</span>
+          </div>
+        </div>
+
+        <aside class="card card-elevated trust-card">
+          <div class="trust-title">Bygget med Askøy Seilforening</div>
+          <div class="trust-sub">Formet av faktisk foreningsdrift</div>
+          <span class="badge trust-badge">I drift</span>
+          <p class="muted trust-text">
+            Utviklet tett på hverdagen i en norsk seilforening – med fokus på enkelhet, kontroll og faktisk bruk.
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 30 DAGER -->
+    <section class="wrap section" id="hvordan">
+      <div class="section-head">
+        <h2>Slik innfører vi på 30 dager</h2>
+        <p class="muted">Start smalt. Få drift som sitter. Utvid når dere er klare.</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="card step-card">
+          <div class="step-badge">Uke 1</div>
+          <div class="step-title">Klargjøring</div>
+          <p class="muted">Oppsett av forening, roller og struktur.</p>
+        </div>
+
+        <div class="card step-card">
+          <div class="step-badge">Uke 2</div>
+          <div class="step-title">Medlemmer inn</div>
+          <p class="muted">Invitasjon sendes ut. Medlemmer får riktig tilgang.</p>
+        </div>
+
+        <div class="card step-card">
+          <div class="step-badge">Uke 3</div>
+          <div class="step-title">Drift i gang</div>
+          <p class="muted">Dugnad live. Oppgaver, påmelding og timelogger i systemet.</p>
+        </div>
+
+        <div class="card step-card">
+          <div class="step-badge">Uke 4</div>
+          <div class="step-title">Juster</div>
+          <p class="muted">Én forbedringsrunde basert på faktisk bruk.</p>
+        </div>
+      </div>
+
+      <div class="callout">
+        <strong>Poenget:</strong> Ikke bytt alt på én gang – få kontroll først.
+      </div>
+    </section>
+
+    <!-- MODULER -->
+    <section class="wrap section" id="moduler">
+      <div class="section-head">
+        <h2>Moduler</h2>
+        <p class="muted">Start med det dere trenger – og bygg videre uten å bytte system.</p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card">
+          <div class="icon">⚓</div>
+          <h3>Havn</h3>
+          <p>Båtplasser og medlemsinfo – tilgjengelig for riktige roller.</p>
+          <ul class="bullets">
+            <li>Rollebasert oversikt</li>
+            <li>Ryddig struktur</li>
+            <li>Mobiltilpasset</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="icon">🧾</div>
+          <h3>Dugnad</h3>
+          <p>Oppgaver, påmelding og timeregistrering i én flyt.</p>
+          <ul class="bullets">
+            <li>Påmelding på mobil</li>
+            <li>Timelogg og oversikt</li>
+            <li>Enkelt for medlemmer</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="icon">📰</div>
+          <h3>Nyhetsside</h3>
+          <p>Publiser nyheter og nyttig informasjon direkte i appen.</p>
+          <ul class="bullets">
+            <li>Egen forside</li>
+            <li>Godkjenning før publisering</li>
+            <li>Mobilvennlig visning</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="icon">➕</div>
+          <h3>Kan utvides med</h3>
+          <p class="muted">Aktiveres når foreningen er klar.</p>
+          <div class="extend-grid">
+            <span class="chip">Styremodul</span>
+            <span class="chip">Mannskapsbørs</span>
+            <span class="chip">Terminliste</span>
+            <span class="chip">Båtopptak</span>
+            <span class="chip">Utstyrsbooking</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section class="wrap section" id="kontakt">
+      <div class="contact">
+        <div class="card card-elevated">
+          <h2 style="margin:0 0 8px 0;">Book demo</h2>
+          <p class="muted">20 minutter. Du får en rask gjennomgang og forslag til enkel innføring.</p>
+
+          <div class="contact-actions">
+            <button class="btn btn-primary" id="openDemoBottom">Book demo</button>
+            <a class="btn btn-outline" href="https://app.seilforeningsappen.no" target="_blank" rel="noopener">Åpne app</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Kontakt</h3>
+          <p class="muted">E-post:</p>
+          <a class="link" href="mailto:post@seilforeningsappen.no?subject=Seilforeningsappen%20-%20Kontakt">
+            post@seilforeningsappen.no
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div class="muted tiny">© <span id="year"></span> Seilforeningsappen</div>
+      <div class="footer-right">
+        <a class="footer-link" href="https://app.seilforeningsappen.no" target="_blank" rel="noopener">Åpne app</a>
+        <a class="footer-link" href="#kontakt">Kontakt</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- DEMO MODAL -->
+  <div class="modal" id="demoModal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-label="Book demo">
+      <div class="modal-head">
+        <div>
+          <div class="modal-title">Book demo</div>
+          <div class="muted tiny">Åpner e-postklient (mailto). Kan byttes til ekte skjema senere.</div>
+        </div>
+        <button class="icon-btn" id="closeModal" aria-label="Lukk">✕</button>
+      </div>
+
+      <form id="demoForm">
+        <label>Navn<input name="name" type="text" required></label>
+        <label>E-post<input name="email" type="email" required></label>
+        <label>Forening<input name="club" type="text" required></label>
+        <label>
+          Starter med?
+          <select name="start">
+            <option>Havn + Dugnad</option>
+            <option>Havn</option>
+            <option>Dugnad</option>
+            <option>Nyhetsside</option>
+            <option>Alt</option>
+          </select>
+        </label>
+        <label>
+          Kort melding (valgfritt)
+          <textarea name="message" rows="3"></textarea>
+        </label>
+
+        <div class="modal-actions">
+          <button type="button" class="btn btn-outline" id="cancelModal">Avbryt</button>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
